@@ -125,7 +125,7 @@ nav {
         background-color: #ff8066;
         z-index: 2;
         position: absolute;
-        flex-direction: row;
+        flex-direction: column;
         left: 50%;
         margin-left: -150px;
         top: 5rem;
@@ -133,11 +133,12 @@ nav {
         width: 300px;
         justify-content: center;
         align-items: center;
-        font-size: 23px;
+        font-size: 25px;
+        font-weight: 700;
     }
     .nav-links {
-        width: 150px;
         text-align: center;
+        margin: 0px;
     }
     .content-image img {
         height: 330px;

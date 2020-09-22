@@ -10,7 +10,7 @@ document.querySelector('.ham').addEventListener('click', () => {
     }else {
         document.querySelector('.ham').classList.add('change');
         document.querySelector('.content-container').style.display = 'none';
-        document.querySelector('.nav-links-container ul').style.display = 'block';
+        document.querySelector('.nav-links-container ul').style.display = 'flex';
     }
 });
 
